@@ -41,7 +41,7 @@ export const BoxWrap = styled.div`
     font-weight: 500;
   }
 
-  p:first-child {
+  div:first-child {
     display: none;
   }
 
@@ -49,7 +49,7 @@ export const BoxWrap = styled.div`
     transition: 0.5s ease-out;
     background: #ededed;
 
-    p:nth-child(odd) {
+    div:nth-child(odd) {
       display: block;
     }
 
@@ -57,5 +57,19 @@ export const BoxWrap = styled.div`
       margin-top: 8px;
       color: #101010;
     }
+  }
+`;
+
+export const EmojiWrap = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  height: 35px;
+
+  img {
+    width: auto;
+    height: 100%;
   }
 `;

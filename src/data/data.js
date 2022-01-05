@@ -4,6 +4,12 @@ import Memoji from "../images/Me.gif";
 import Circle from "../images/Circle.svg";
 import MyPhoto from "../images/PhotoMe.png";
 
+import earth from "../images/emojis/earth.png";
+import english from "../images/emojis/english.png";
+import film from "../images/emojis/film-frames.png";
+import portugues from "../images/emojis/portugues.png";
+import spain from "../images/emojis/spain.png";
+
 import not from "../images/not.png";
 
 export const NavInfo = [
@@ -146,15 +152,17 @@ export const ExtrasCV = [
 
 export const Extras = [
   {
-    emoji: "🌍",
+    emoji: earth,
     text: "Based in Portugal",
   },
   {
-    emoji: "🇪🇸 🇵🇹 🇬🇧",
+    emoji: english,
+    emojiTwo: spain,
+    emojiThree: portugues,
     text: "3 Languages",
   },
   {
-    emoji: "📷",
+    emoji: film,
     text: "Analog noob",
   },
 ];

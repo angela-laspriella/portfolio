@@ -3,7 +3,7 @@ import React from "react";
 import { Extras } from "../../../data/data.js";
 
 import { Container, BasicText } from "../../../GlobalStyled.js";
-import { Content, BoxWrap } from "./ExtraBoxElements.js";
+import { Content, BoxWrap, EmojiWrap } from "./ExtraBoxElements.js";
 
 const ExtraBox = ({}) => {
   return (
@@ -13,7 +13,12 @@ const ExtraBox = ({}) => {
           return (
             <>
               <BoxWrap>
-                <BasicText>{item.emoji}</BasicText>
+                <EmojiWrap>
+                  <img src={item.emoji} />
+                  <img src={item.emojiTwo} />
+                  <img src={item.emojiThree} />
+                </EmojiWrap>
+
                 <BasicText>{item.text}</BasicText>
               </BoxWrap>
             </>

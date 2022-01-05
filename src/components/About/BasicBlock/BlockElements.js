@@ -32,6 +32,7 @@ export const TextWrap = styled.div`
 
   @media screen and (max-width: 1000px) {
     width: 100%;
+    margin-top: 80px;
   }
 `;
 
