@@ -28,10 +28,6 @@ export const Content = styled.div`
 export const FirstBlock = styled.div`
   width: 60%;
 
-  @media screen and (max-width: 1200px) {
-    padding: 0 24px;
-  }
-
   @media screen and (max-width: 1000px) {
     width: 100%;
   }
@@ -58,7 +54,6 @@ export const SecondBlock = styled.div`
 
   @media screen and (max-width: 1000px) {
     width: 100%;
-    padding: 0 24px;
 
     h2:first-child {
       margin-top: 62px;

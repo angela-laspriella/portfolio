@@ -23,7 +23,7 @@ export const NavInfo = [
   },
   {
     name: "Contact me",
-    path: "contact",
+    path: "mailto:angela.laspriella@gmail.com?subject=Hello!",
   },
 ];
 

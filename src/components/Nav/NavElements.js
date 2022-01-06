@@ -26,7 +26,7 @@ export const SocialIcon = styled.div`
   }
 
   @media screen and (max-width: 1200px) {
-    padding-left: 24px;
+    padding-left: 0;
   }
 `;
 

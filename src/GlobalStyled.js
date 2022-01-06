@@ -24,7 +24,7 @@ export const Title = styled.h1`
   margin-top: 32vh;
 
   @media screen and (max-width: 1200px) {
-    padding: 0 24px;
+    padding: 0 0;
   }
 
   @media screen and (max-width: 1000px) {
@@ -41,7 +41,7 @@ export const Subtitle = styled.h2`
   line-height: 58px;
 
   @media screen and (max-width: 1200px) {
-    padding: 0 24px;
+    padding: 0 0;
   }
 `;
 
@@ -61,7 +61,7 @@ export const BasicText = styled.p`
   }
 
   @media screen and (max-width: 1200px) {
-    padding: 0 24px;
+    padding: 0 0;
   }
 
   @media screen and (max-width: 1000px) {

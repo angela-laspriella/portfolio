@@ -9,10 +9,8 @@ export const Grid = styled.div`
   padding: 80px 0;
   transition: 0.15s ease-out;
 
-  &:hover {
-    div:not(:hover) {
-      opacity: 0.2;
-    }
+  @media screen and (max-width: 800px) {
+    grid-template-columns: repeat(1, 1fr);
   }
 `;
 
@@ -35,8 +33,13 @@ export const Card = styled.div`
   opacity: 1;
 
   &:hover {
-    transform: translate(0, -13px);
-    transition: transform 0.4s ease-out, background 1s ease-out;
-    -webkit-transition: transform 0.6s ease-out, background 1s ease-out;
+    transform: translate(0, -16px);
+    transition: transform 0.4s ease-out;
+    -webkit-transition: transform 0.6s ease-out;
+  }
+
+  @media screen and (max-width: 800px) {
+    width: 70vw;
+    height: 70vw;
   }
 `;
