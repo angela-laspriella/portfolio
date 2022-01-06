@@ -6,14 +6,12 @@ import About from "./pages/about_me";
 
 function App() {
   return (
-    <>
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about-me" element={<About />} />
-        </Routes>
-      </Router>
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about-me" element={<About />} />
+      </Routes>
+    </Router>
   );
 }
 

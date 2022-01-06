@@ -9,10 +9,10 @@ const Works = () => {
   return (
     <Container id="work">
       <Content row="false">
-        <Grid>
+        <Grid class="grid">
           {DataPost.map((item, index) => {
             return (
-              <Card index={index} key={item.id}>
+              <Card className="card" index={index} key={item.id}>
                 <img src={item.img} alt="" />
               </Card>
             );

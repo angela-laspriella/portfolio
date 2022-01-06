@@ -4,13 +4,21 @@ export const Grid = styled.div`
   align-self: center;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 6rem 6rem;
+  grid-gap: 4rem 4rem;
 
   padding: 80px 0;
   transition: 0.15s ease-out;
 
   @media screen and (max-width: 800px) {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  &:hover .card {
+    opacity: 0.6;
+  }
+
+  & .card:hover {
+    opacity: 1;
   }
 `;
 
@@ -34,8 +42,8 @@ export const Card = styled.div`
 
   &:hover {
     transform: translate(0, -16px);
-    transition: transform 0.4s ease-out;
-    -webkit-transition: transform 0.6s ease-out;
+    transition: transform 0.4s ease-in-out;
+    -webkit-transition: transform 0.4s ease-in-out;
   }
 
   @media screen and (max-width: 800px) {
