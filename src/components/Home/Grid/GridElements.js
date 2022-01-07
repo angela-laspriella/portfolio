@@ -21,7 +21,7 @@ export const Grid = styled.div`
     opacity: 1;
   }
 
-  @media (hover: hover) {
+  @media screen and (max-width: 600px) {
     &:hover .card {
       opacity: 1;
     }
@@ -57,5 +57,9 @@ export const Card = styled.a`
     height: 70vw;
 
     border: 0.5rem solid white;
+  }
+
+  @media screen and (max-width: 600px) {
+    transform: none;
   }
 `;
