@@ -45,6 +45,7 @@ export const SidebarWrapper = styled.div`
 
 export const SidebarMenu = styled.ul`
   margin: 0;
+  padding: 0;
   height: 100%;
 
   display: flex;

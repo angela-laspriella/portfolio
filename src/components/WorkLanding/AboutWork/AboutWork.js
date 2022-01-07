@@ -20,7 +20,7 @@ export const FirstBlock = styled.div`
   align-items: center;
 
   img {
-    width: 100%;
+    width: 90%;
     max-width: 340px;
   }
 

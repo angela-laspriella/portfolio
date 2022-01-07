@@ -22,7 +22,6 @@ const AboutBlock = ({ data }) => {
             return (
               <>
                 <Subtitle>{item.roleTitle}</Subtitle>
-
                 <BasicText margin="false">{item.roleText}</BasicText>
 
                 <Wrap>
@@ -37,6 +36,7 @@ const AboutBlock = ({ data }) => {
                     <img src={item.imgSecondSection} />
                   </FirstBlock>
                 </Wrap>
+
                 <ExamplesWrap>
                   <img src={item.imgEx1} />
                   <img src={item.imgEx2} />

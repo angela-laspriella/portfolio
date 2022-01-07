@@ -20,6 +20,12 @@ export const Grid = styled.div`
   & .card:hover {
     opacity: 1;
   }
+
+  @media (hover: hover) {
+    &:hover .card {
+      opacity: 1;
+    }
+  }
 `;
 
 export const Card = styled.a`
