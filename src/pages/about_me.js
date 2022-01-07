@@ -28,9 +28,10 @@ function About() {
       <Block {...WhyMe} />
       <OtherPeopleBlock />
       <Footer {...Answer} />
-      <div class="gradientOne">
+      {/*       <div class="gradientOne">
         <Gradient />
       </div>
+ */}{" "}
     </>
   );
 }
