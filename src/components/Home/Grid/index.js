@@ -3,17 +3,15 @@ import React from "react";
 import { Container, Content } from "../../../GlobalStyled.js";
 import { Grid, Card } from "./GridElements.js";
 
-import { DataPost } from "../../../data/data.js";
-
-const Works = () => {
+const Works = ({ data }) => {
   return (
     <Container id="work">
       <Content row="false">
         <Grid class="grid">
-          {DataPost.map((item, index) => {
+          {data.map((item) => {
             return (
-              <Card className="card" index={index} key={item.id}>
-                <img src={item.img} alt="" />
+              <Card className="card" href={`${item.id}`}>
+                <img src={item.imgBanner} alt="" />
               </Card>
             );
           })}

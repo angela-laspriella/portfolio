@@ -6,7 +6,7 @@ export const Grid = styled.div`
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 4rem 4rem;
 
-  padding: 80px 0;
+  margin: 80px 0;
   transition: 0.15s ease-out;
 
   @media screen and (max-width: 800px) {
@@ -22,7 +22,7 @@ export const Grid = styled.div`
   }
 `;
 
-export const Card = styled.div`
+export const Card = styled.a`
   width: 32vw;
   height: 32vw;
 

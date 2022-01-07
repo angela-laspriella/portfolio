@@ -19,6 +19,14 @@ export const Content = styled.div`
   padding-top: 40px;
 `;
 
+export const TextWrap = styled.div`
+  width: 80%;
+
+  @media screen and (max-width: 1000px) {
+    width: 100%;
+  }
+`;
+
 export const Title = styled.h1`
   font-size: 550%;
   margin-top: 32vh;
@@ -65,6 +73,6 @@ export const BasicText = styled.p`
   }
 
   @media screen and (max-width: 1000px) {
-    font-size: 120%;
+    font-size: 112%;
   }
 `;

@@ -1,5 +1,3 @@
-import etherial from "../images/Ethereal.png";
-
 import Memoji from "../images/Me.gif";
 import Circle from "../images/Circle.svg";
 import MyPhoto from "../images/PhotoMe.png";
@@ -37,33 +35,6 @@ export const IntroText = [
   {
     text: "Take a look at my projects :)",
     margin: "true",
-  },
-];
-
-export const DataPost = [
-  {
-    id: 0,
-    img: etherial,
-  },
-  {
-    id: 1,
-    img: etherial,
-  },
-  {
-    id: 2,
-    img: etherial,
-  },
-  {
-    id: 3,
-    img: etherial,
-  },
-  {
-    id: 4,
-    img: etherial,
-  },
-  {
-    id: 5,
-    img: etherial,
   },
 ];
 

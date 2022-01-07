@@ -1,13 +1,14 @@
 import React from "react";
-import styled from "styled-components";
 
-import { Container, Content, Title, BasicText } from "../../../GlobalStyled.js";
+import {
+  Container,
+  Content,
+  TextWrap,
+  Title,
+  BasicText,
+} from "../../../GlobalStyled.js";
 
 import { IntroText } from "../../../data/data.js";
-
-const TitleWrap = styled.div`
-  width: 80%;
-`;
 
 const Intro = () => {
   return (
@@ -20,9 +21,9 @@ const Intro = () => {
         {IntroText.map((item) => {
           return (
             <>
-              <TitleWrap>
+              <TextWrap>
                 <BasicText margin={item.margin}>{item.text}</BasicText>
-              </TitleWrap>
+              </TextWrap>
             </>
           );
         })}
