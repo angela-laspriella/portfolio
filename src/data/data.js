@@ -75,7 +75,7 @@ export const AboutMeIntro = {
     <br />,
     "I'm Angela Laspriella,huge dog lover 🐶. I am currently an Intern at Fjord - Accenture Interactive, where I'm  focusing on developing and mastering my skills and increase my knowledge on Product Design.",
     <br />,
-    "In college I joined jeKnowledge - a Junior Enterprise company - as a designer. This experience gave me opportunities wo work on multiple projects where I got feedback from clients on first hand. JeKnowledge was also the place where I discovered my love for Product Design.",
+    "In college I joined jeKnowledge - a Junior Enterprise company - as a designer. This experience gave me opportunities who work on multiple projects where I got feedback from clients on first hand. JeKnowledge was also the place where I discovered my love for Product Design.",
     <br />,
     "Funny plotwist: I'm also a front-end enthusiast. I've successfully developed projects using HTML, CSS, and most recently React.js. Keeping track with new technologies and frameworks makes a difference when it comes to creating realistic and well-designed products.",
   ],

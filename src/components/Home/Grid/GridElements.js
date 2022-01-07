@@ -49,5 +49,7 @@ export const Card = styled.div`
   @media screen and (max-width: 800px) {
     width: 70vw;
     height: 70vw;
+
+    border: 0.5rem solid white;
   }
 `;
