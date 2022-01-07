@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 
 import NavSection from "../components/Nav";
+import Sidebar from "../components/Sidebar";
 import Footer from "../components/Footer";
 
 import { AboutMeIntro, WhyInfo, WhyMe } from "../data/data";
@@ -15,12 +16,17 @@ import OtherPeopleBlock from "../components/About/OtherPeople";
 //import Gradient from "../components/Gradient";
 
 function About() {
+  const [isOpen, setIsOpen] = useState(false);
+  const toggle = () => {
+    setIsOpen(!isOpen); //false-true-true-false
+  };
+
   const Answer = { yesHome: false, yesWork: true };
-  const Top1 = "50%";
 
   return (
     <>
-      <NavSection {...Answer} />
+      <NavSection toggle={toggle} {...Answer} />
+      <Sidebar isOpen={isOpen} toggle={toggle} />
       <Block {...AboutMeIntro} />
       <CVBlock />
       <ExtraBox />

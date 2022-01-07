@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { animateScroll as scroll } from "react-scroll";
+import { FaBars } from "react-icons/fa";
 import { Link } from "react-scroll";
 
 import { Container, Content } from "../../GlobalStyled.js";
@@ -7,18 +7,32 @@ import {
   SocialSection,
   SocialIcon,
   NavMenu,
-  NavLinks,
   LinkA,
   LinkedIn,
   Behance,
   Github,
+  MobileIcon,
 } from "./NavElements.js";
 
 import { NavInfo } from "../../data/data.js";
 
-const NavSection = ({ yesHome, yesWork }) => {
+const NavSection = ({ toggle, yesHome, yesWork }) => {
+  const [scrollNav, setScrollNav] = useState(false);
+
+  const changeNav = () => {
+    if (window.scrollY >= 80) {
+      setScrollNav(true);
+    } else {
+      setScrollNav(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", changeNav);
+  }, []);
+
   return (
-    <Container>
+    <Container scrollNav={scrollNav}>
       <Content>
         <SocialSection>
           <a
@@ -42,6 +56,9 @@ const NavSection = ({ yesHome, yesWork }) => {
             </SocialIcon>
           </a>
         </SocialSection>
+        <MobileIcon onClick={toggle}>
+          <FaBars />
+        </MobileIcon>
         <NavMenu showHome={yesHome} showWork={yesWork}>
           <Link
             to="work"

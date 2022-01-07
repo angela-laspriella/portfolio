@@ -191,24 +191,24 @@ export const WhyMe = {
 
 export const OtherPeople = [
   {
-    text: "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mus condimentum hendrerit fermentum sit nec. Non mauris lectus egestas nisi. Adipiscing sit quam vel malesuada praesent convallis mi. Iaculis lorem enim faucibus aliquet accumsan tempor ac aliquet.”",
+    text: "“Angela is definitely the type of person you would want on your team. She is proactive, self driven, always gets the job done and often goes the extra mile to achieve an amazing work. The pleasure and dedication with which she faces each challenge results in a work of excellence.”",
     position: "jeKnowledge Design Coordinator",
     name: "Diogo Ribeiro",
     pathOne: "",
     pathTwo: "",
     img: not,
   },
-  {
+  /* {
     text: "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mus condimentum hendrerit fermentum sit nec. Non mauris lectus egestas nisi. Adipiscing sit quam vel malesuada praesent convallis mi. Iaculis lorem enim faucibus aliquet accumsan tempor ac aliquet.”",
     position: "Fjord",
     name: "João Valente",
     pathOne: "",
     pathTwo: "",
     img: not,
-  },
+  }, */
   {
     text: "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mus condimentum hendrerit fermentum sit nec. Non mauris lectus egestas nisi. Adipiscing sit quam vel malesuada praesent convallis mi. Iaculis lorem enim faucibus aliquet accumsan tempor ac aliquet.”",
-    position: "-",
+    position: "NEI/AAC Image Department's Coordinator",
     name: "Pedro Churro",
     pathOne: "",
     pathTwo: "",

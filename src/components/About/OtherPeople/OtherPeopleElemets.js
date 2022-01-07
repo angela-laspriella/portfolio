@@ -33,6 +33,7 @@ export const BoxWrap = styled.div`
 
   @media screen and (max-width: 800px) {
     width: 100%;
+    flex-direction: column;
   }
 `;
 
@@ -50,9 +51,14 @@ export const FirstBlock = styled.div`
 
   @media screen and (max-width: 800px) {
     height: 200px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
 
     img {
       width: 120px;
+      margin-bottom: 0;
+      margin-right: 24px;
     }
   }
 `;
@@ -80,6 +86,10 @@ export const SocialIcon = styled.div`
     width: 100%;
     height: 100%;
   }
+
+  @media screen and (max-width: 800px) {
+    margin-bottom: 0;
+  }
 `;
 
 export const LinkedIn = styled(LinkedInIcon)`
@@ -92,9 +102,23 @@ export const Behance = styled(BehanceIcon)`
   height: auto;
 `;
 
+export const NameBlock = styled.div`
+  @media screen and (max-width: 800px) {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+`;
+
 export const Name = styled.p`
   margin: 0;
   font-weight: 500;
+
+  @media screen and (max-width: 800px) {
+    font-size: 150%;
+    margin-bottom: 16px;
+  }
 `;
 
 export const SecondBlock = styled.div`
@@ -103,6 +127,10 @@ export const SecondBlock = styled.div`
   margin-left: 24px;
 
   padding: 24px;
+
+  @media screen and (max-width: 800px) {
+    margin-left: 0;
+  }
 `;
 
 export const Text = styled.p`

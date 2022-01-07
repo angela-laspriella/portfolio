@@ -15,6 +15,7 @@ import {
   SecondBlock,
   Text,
   Job,
+  NameBlock,
   Name,
 } from "./OtherPeopleElemets.js";
 
@@ -29,20 +30,23 @@ const OtherPeopleBlock = ({}) => {
               <BoxWrap>
                 <FirstBlock>
                   <img src={item.img} />
-                  <Social>
-                    <a href={item.pathOne} target={item.pathTwo}>
-                      <SocialIcon>
-                        <LinkedIn />
-                      </SocialIcon>
-                    </a>
+                  <NameBlock>
+                    {" "}
+                    <Social>
+                      <a href={item.pathOne} target={item.pathTwo}>
+                        <SocialIcon>
+                          <LinkedIn />
+                        </SocialIcon>
+                      </a>
 
-                    <a href={item.pathOne} target={item.pathTwo}>
-                      <SocialIcon>
-                        <Behance />
-                      </SocialIcon>
-                    </a>
-                  </Social>
-                  <Name>{item.name}</Name>
+                      <a href={item.pathOne} target={item.pathTwo}>
+                        <SocialIcon>
+                          <Behance />
+                        </SocialIcon>
+                      </a>
+                    </Social>
+                    <Name>{item.name}</Name>
+                  </NameBlock>
                 </FirstBlock>
                 <SecondBlock>
                   <Text>{item.text}</Text>

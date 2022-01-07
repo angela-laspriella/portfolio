@@ -30,6 +30,21 @@ export const SocialIcon = styled.div`
   }
 `;
 
+export const MobileIcon = styled.div`
+  display: none;
+
+  @media screen and (max-width: 700px) {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-140%, 100%);
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #fff;
+  }
+`;
+
 export const LinkedIn = styled(LinkedInIcon)`
   width: 100%;
   height: auto;
@@ -87,6 +102,10 @@ export const NavMenu = styled.div`
 
   a:nth-child(2) {
     display: ${({ showHome }) => (showHome ? "none" : "block")};
+  }
+
+  @media screen and (max-width: 700px) {
+    display: none;
   }
 `;
 

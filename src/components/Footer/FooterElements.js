@@ -57,6 +57,8 @@ export const NavMenu = styled.div`
   font-weight: 300;
   font-size: 95%;
 
+  margin-bottom: 40px;
+
   a {
     position: relative;
 
