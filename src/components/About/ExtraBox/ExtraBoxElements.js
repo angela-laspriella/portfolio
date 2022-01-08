@@ -20,6 +20,10 @@ export const Content = styled.div`
 
     min-height: 350px;
   }
+
+  @media screen and (max-width: 600px) {
+    min-height: 450px;
+  }
 `;
 
 export const BoxWrap = styled.div`
@@ -47,6 +51,19 @@ export const BoxWrap = styled.div`
 
   &:hover {
     transition: 0.5s ease-out;
+    background: #ededed;
+
+    div:nth-child(odd) {
+      display: block;
+    }
+
+    p:last-child {
+      margin-top: 8px;
+      color: #101010;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
     background: #ededed;
 
     div:nth-child(odd) {

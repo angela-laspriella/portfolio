@@ -12,10 +12,11 @@ import Gradient from "../components/Gradient";
 
 import "./gradient.css";
 import OtherPeopleBlock from "../components/About/OtherPeople";
+import CarouselBlock from "../components/WorkCarousel";
 
 //import Gradient from "../components/Gradient";
 
-function About() {
+function About({ data }) {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
     setIsOpen(!isOpen); //false-true-true-false
@@ -33,6 +34,7 @@ function About() {
       <Block {...WhyInfo} />
       <Block {...WhyMe} />
       <OtherPeopleBlock />
+      <CarouselBlock data={data} />
       <Footer {...Answer} />
       {/*       <div class="gradientOne">
         <Gradient />

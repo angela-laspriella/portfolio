@@ -12,7 +12,7 @@ function App() {
     <Router>
       <Routes>
         <Route exact path="/" element={<Home data={worksInfo} />} />
-        <Route exact path="about-me" element={<About />} />
+        <Route exact path="about-me" element={<About data={worksInfo} />} />
         <Route exact path=":id" element={<Work data={worksInfo} />} />
       </Routes>
     </Router>
