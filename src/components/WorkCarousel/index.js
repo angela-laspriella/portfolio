@@ -18,7 +18,7 @@ const CarouselBlock = ({ data }) => {
   return (
     <Container>
       <Content row="false">
-        <Subtitle>More Work</Subtitle>
+        <Subtitle>My Work</Subtitle>
         <Line />
         <CarouselWrap>
           <Carousel
