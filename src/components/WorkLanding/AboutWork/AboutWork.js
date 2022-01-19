@@ -6,6 +6,7 @@ export const Wrap = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
   @media screen and (max-width: 1200px) {
     flex-direction: column;
   }
@@ -14,7 +15,7 @@ export const Wrap = styled.div`
 export const FirstBlock = styled.div`
   width: 50%;
 
-  display: flex;
+  display: ${({ display }) => (display ? "none" : "flex")};
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -25,6 +26,8 @@ export const FirstBlock = styled.div`
   }
 
   @media screen and (max-width: 1200px) {
+    display: ${({ display }) => (display ? "none" : "block")};
+
     width: 100%;
     margin-top: 8%;
   }
@@ -62,6 +65,8 @@ export const ExamplesWrap = styled.div`
   }
 
   @media screen and (max-width: 850px) {
+    display: ${({ display }) => (display ? "none" : "block")};
+
     justify-content: center;
     flex-wrap: wrap;
 
@@ -82,4 +87,6 @@ export const ExamplesWrap = styled.div`
 
     gap: 16px;
   }
+
+  display: ${({ display }) => (display ? "none" : "block")};
 `;

@@ -21,9 +21,11 @@ const AboutBlock = ({ data }) => {
           .map((item) => {
             return (
               <>
-                <Subtitle>{item.roleTitle}</Subtitle>
-                <BasicText margin="false">{item.roleText}</BasicText>
-
+                {" "}
+                <Subtitle display={item.displaySub}>{item.roleTitle}</Subtitle>
+                <BasicText display={item.displayText} margin="false">
+                  {item.roleText}
+                </BasicText>
                 <Wrap>
                   <SecondBlock>
                     <Subtitle>{item.challengesTitle}</Subtitle>
@@ -32,12 +34,11 @@ const AboutBlock = ({ data }) => {
                     <Subtitle>{item.resultsTitle}</Subtitle>
                     <BasicText>{item.resultsText}</BasicText>
                   </SecondBlock>
-                  <FirstBlock>
+                  <FirstBlock display={item.displayFirstBlock}>
                     <img src={item.imgSecondSection} />
                   </FirstBlock>
                 </Wrap>
-
-                <ExamplesWrap>
+                <ExamplesWrap display="false">
                   <img src={item.imgEx1} />
                   <img src={item.imgEx2} />
                   <img src={item.imgEx3} />

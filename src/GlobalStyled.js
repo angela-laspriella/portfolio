@@ -16,7 +16,7 @@ export const Content = styled.div`
   align-items: flex-start;
   justify-content: space-between;
 
-  padding-top: 40px;
+  padding-top: ${({ padding }) => (padding ? "0" : "40px")};
 `;
 
 export const TextWrap = styled.div`
@@ -41,6 +41,7 @@ export const Title = styled.h1`
 `;
 
 export const Subtitle = styled.h2`
+  display: ${({ display }) => (display ? "none" : "block")};
   color: ${({ white }) => (white ? "#7C7C7C" : "white")};
 
   font-style: normal;
@@ -54,6 +55,7 @@ export const Subtitle = styled.h2`
 `;
 
 export const BasicText = styled.p`
+  display: ${({ display }) => (display ? "none" : "block")};
   margin-top: ${({ margin }) => (margin ? "0" : "8")};
 
   font-size: 130%;

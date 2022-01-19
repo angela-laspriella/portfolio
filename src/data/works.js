@@ -11,6 +11,10 @@ import shift8 from "../images/shift/approach.png";
 import shift9 from "../images/shift/approachV.png";
 import shift10 from "../images/shift/shiftBanner.png";
 
+import etherial1 from "../images/ethereal/first.png";
+import etherial2 from "../images/ethereal/approachV.png";
+import etherial3 from "../images/ethereal/approachH.png";
+
 export const worksInfo = [
   {
     id: "shift",
@@ -61,12 +65,48 @@ export const worksInfo = [
     imgApproach: shift8,
     imgApproachV: shift9,
   },
-  {
-    id: "feelsgood",
-    imgBanner: etherial,
-  },
+  // -----------------------------------
   {
     id: "etherial",
+    imgBanner: etherial,
+
+    // first section
+    title: "Ethereal",
+    text: [
+      "Ethereal is an immersive interactive installation based on the ineffable representation of the Human Essence with the goal of creating an surreal experience that resembles another world.",
+      <br />,
+      "This adventure is possible through the collection of data using tools such as facial recognition, people counting and the capture of voice characteristics of the people inside of the room. Depending on the obtained result, the environment they are in will change in color, shape and sound reflecting the data processed. ",
+    ],
+    img: etherial1,
+    img2: shift2,
+
+    // second section
+    displaySub: "false",
+    displayText: "false",
+    challengesTitle: "Constrains",
+    challengesText: [
+      "The biggest constraint was the technology being used. We worked for the first time with Python, a programming language, and we conducted experiments with new systems such as Face-Recognition.",
+    ],
+    resultsTitle: "Results",
+    resultsText: [
+      "Our goal with this project was to model an environment based on a human, who is equally reflected in the environment itself and thus creating a cycle of learning and exploration between the visitor and the installation.",
+      <br />,
+      "Is important to notice that if there are more people present, the environment will be affected by them as well, and by this the relationship between the visitor and the environment will no longer be exclusive and will become a collective experience.",
+    ],
+    imgSecondSection: shift3,
+    displayExamples: "false",
+
+    // third section
+    paddingTop: "false",
+    approachTitle: "Approach",
+    approachText: [
+      "After having a solid idea of what we wanted to achieve, we started to research how we could actually do it and then determined the necessary steps and goals. When everything was ready we started the long development process and necessary trials until we accomplish our desired objective.",
+    ],
+    imgApproach: etherial2,
+    imgApproachV: etherial3,
+  },
+  {
+    id: "feelsgood",
     imgBanner: etherial,
   },
   {
