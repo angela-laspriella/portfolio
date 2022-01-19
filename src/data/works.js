@@ -56,7 +56,7 @@ export const worksInfo = [
     // third section
     approachTitle: "Approach",
     approachText: [
-      "Lorem ipum e lguma coisa sobre as tarefas serem sempre diferentes, sobre aprender dos erros e tentar auementar a eficacia de cada cena. Falar sobre as edicoes passadas",
+      "This project involved a lot of team and time management. In addition, being a big project organized only by college students, it involved a lot of trial and error so that's why we hold great importance to analyze every new move and learned a lot about past errors, on this and past editions.",
     ],
     imgApproach: shift8,
     imgApproachV: shift9,

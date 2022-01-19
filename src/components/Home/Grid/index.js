@@ -7,6 +7,10 @@ const Works = ({ data }) => {
   return (
     <Container id="work">
       <Content row="false">
+        <p>
+          As capas ainda vao ser feitas, os projetos que funcionam sao os dois
+          primeiros
+        </p>
         <Grid class="grid">
           {data.map((item) => {
             return (

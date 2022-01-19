@@ -12,9 +12,19 @@ export const CarouselWrap = styled.div`
   width: 100%;
   margin: 8% 0;
 
-  div {
-    border-color: coral;
+  a {
+    background: blue;
+  }
+`;
+
+export const ImageWrap = styled.div`
+  width: 400px;
+
+  img {
+    background: red;
   }
 
-  border-color: coral;
+  a {
+    background: blue;
+  }
 `;
