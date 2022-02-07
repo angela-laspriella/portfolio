@@ -29,7 +29,8 @@ export const BoxWrap = styled.div`
 
   margin-top: 48px;
 
-  width: 550px;
+  width: 100%;
+  max-width: 1100px;
 
   @media screen and (max-width: 800px) {
     width: 100%;
@@ -126,6 +127,10 @@ export const Name = styled.p`
 `;
 
 export const SecondBlock = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
   background: rgba(237, 237, 237, 0.05);
   border-radius: 16px;
   margin-left: 24px;
