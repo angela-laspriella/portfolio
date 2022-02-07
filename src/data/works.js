@@ -1,5 +1,3 @@
-import etherial from "../images/Ethereal.png";
-
 import shift1 from "../images/shift/Make it APPen.png";
 import shift2 from "../images/shift/figmaShift.png";
 import shift3 from "../images/shift/PhoneShift.png";
@@ -11,6 +9,7 @@ import shift8 from "../images/shift/approach.png";
 import shift9 from "../images/shift/approachV.png";
 import shift10 from "../images/shift/shiftBanner.png";
 
+import etherial from "../images/ethereal/etherealCover.png";
 import etherial1 from "../images/ethereal/first.png";
 import etherial2 from "../images/ethereal/approachV.png";
 import etherial3 from "../images/ethereal/approachH.png";

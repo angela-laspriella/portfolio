@@ -83,7 +83,7 @@ export const ExperienceCV = [
     text: "Shift APPens is a hackathon created by students. We've successfully accomplished the transition from a on-site to a remote hackathon for the 7th edition. \n Image Department revamped the brand as well as additional assets. Had the opportunity to coordinated the design team on multipe design disciplines that the department was responsible for, such as graphics, video, motion, branding and web. ",
     extras: "Coimbra, Portugal • Sep 2020 - Apr 2021",
     linkName: "Shift APPens 2021",
-    path: "http://shiftappens.com",
+    path: "https://2021.shiftappens.com",
   },
   {
     title: "Image Department's Collaborator  — ",

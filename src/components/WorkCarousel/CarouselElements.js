@@ -12,6 +12,9 @@ export const Line = styled.div`
 
 export const CarouselWrap = styled.div`
   width: 100%;
+  max-width: 1100px;
+  margin: auto;
+
   display: flex;
   flex-direction: center;
 
@@ -38,6 +41,7 @@ export const ImageWrap = styled.div`
 
     width: 90%;
     height: auto;
+    max-width: 400px;
 
     box-sizing: border-box;
     border: 2px solid rgba(0, 0, 0, 0);

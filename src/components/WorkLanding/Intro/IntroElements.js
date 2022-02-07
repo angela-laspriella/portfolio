@@ -23,5 +23,6 @@ export const YoutubeBlock = styled.div`
   justify-content: center;
 
   width: 95%;
+  max-width: 1100px;
   aspect-ratio: 16 / 9;
 `;
