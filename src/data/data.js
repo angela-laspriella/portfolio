@@ -8,7 +8,8 @@ import film from "../images/emojis/film-frames.png";
 import portugues from "../images/emojis/portugues.png";
 import spain from "../images/emojis/spain.png";
 
-import not from "../images/not.png";
+import ribeiro from "../images/ribeiro.png";
+import churro from "../images/churro.png";
 
 export const NavInfo = [
   {
@@ -167,7 +168,7 @@ export const OtherPeople = [
     name: "Diogo Ribeiro",
     pathOne: "",
     pathTwo: "",
-    img: not,
+    img: ribeiro,
   },
   /* {
     text: "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mus condimentum hendrerit fermentum sit nec. Non mauris lectus egestas nisi. Adipiscing sit quam vel malesuada praesent convallis mi. Iaculis lorem enim faucibus aliquet accumsan tempor ac aliquet.”",
@@ -178,11 +179,11 @@ export const OtherPeople = [
     img: not,
   }, */
   {
-    text: "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mus condimentum hendrerit fermentum sit nec. Non mauris lectus egestas nisi. Adipiscing sit quam vel malesuada praesent convallis mi. Iaculis lorem enim faucibus aliquet accumsan tempor ac aliquet.”",
+    text: "“Angela, while part of the NEI/AAC Imaging Portfolio, was crucial in maintaining the high graphic quality by which the NEI/AAC is governed, and, consequently, was essential to the success of the two terms in which she was present. All the images she created presented an important sense of visual aesthetics, and she always was capable of redefining and reinventing nei/AAC's graphic identity so it could hit levels that drew a lot of attention. As Coordinator of the Image Department, that is a part of the 2021 Edition Organizing Committee of Shift APPens, also presented a great ability to work under pressure and lead a team in an edition of the event that, by its transition to an online format, it required enormous innovation and workload at the level of her Department.”",
     position: "NEI/AAC Image Department's Coordinator",
     name: "Pedro Churro",
     pathOne: "",
     pathTwo: "",
-    img: not,
+    img: churro,
   },
 ];

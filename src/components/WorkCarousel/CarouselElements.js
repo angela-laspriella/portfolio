@@ -6,25 +6,44 @@ export const Line = styled.div`
 
   background: rgba(255, 255, 255, 0.4);
   border-radius: 4px;
+
+  margin-bottom: 4%;
 `;
 
 export const CarouselWrap = styled.div`
   width: 100%;
-  margin: 8% 0;
+  display: flex;
+  flex-direction: center;
 
-  a {
-    background: blue;
-  }
+  margin-bottom: 4%;
 `;
 
 export const ImageWrap = styled.div`
-  width: 400px;
-
-  img {
-    background: red;
-  }
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 
   a {
-    background: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  img {
+    border-radius: 20px;
+
+    width: 90%;
+    height: auto;
+
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0);
+  }
+
+  img:hover {
+    border: 2px solid white;
   }
 `;

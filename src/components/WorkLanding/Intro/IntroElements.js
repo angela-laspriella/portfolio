@@ -21,4 +21,7 @@ export const WorkWrap = styled.div`
 export const YoutubeBlock = styled.div`
   display: ${({ displayPlease }) => (displayPlease ? "flex" : "none")};
   justify-content: center;
+
+  width: 95%;
+  aspect-ratio: 16 / 9;
 `;

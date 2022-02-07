@@ -25,7 +25,12 @@ const IntroBlock = ({ data }) => {
                   <img src={item.img} />
                   <img display={item.displayImg2} src={item.img2} />
                   <YoutubeBlock displayPlease={item.displayYoutube}>
-                    <ReactPlayer url={item.displayVideo} controls={true} />
+                    <ReactPlayer
+                      width="100%"
+                      height="100%"
+                      url={item.displayVideo}
+                      controls={true}
+                    />
                   </YoutubeBlock>
                 </WorkWrap>
               </>

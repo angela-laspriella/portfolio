@@ -23,7 +23,7 @@ function Home({ data }) {
 
       <Intro />
       <Works data={data} />
-      <Gradient />
+      {/* <Gradient /> */}
 
       <Footer {...Answer} />
     </>

@@ -46,7 +46,11 @@ export const FirstBlock = styled.div`
   height: 250px;
 
   img {
+    width: 180px;
     margin-bottom: 16px;
+
+    border-radius: 16px;
+    background: rgba(237, 237, 237, 0.05);
   }
 
   @media screen and (max-width: 800px) {

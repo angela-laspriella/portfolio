@@ -19,6 +19,7 @@ export const FirstBlock = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  align-content: center;
 
   img {
     width: 80%;
@@ -26,7 +27,7 @@ export const FirstBlock = styled.div`
   }
 
   @media screen and (max-width: 1200px) {
-    display: ${({ display }) => (display ? "none" : "block")};
+    display: ${({ display }) => (display ? "none" : "flex")};
 
     width: 100%;
     margin-top: 8%;
