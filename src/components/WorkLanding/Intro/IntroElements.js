@@ -17,3 +17,8 @@ export const WorkWrap = styled.div`
     margin-top: 10%;
   }
 `;
+
+export const YoutubeBlock = styled.div`
+  display: ${({ displayPlease }) => (displayPlease ? "flex" : "none")};
+  justify-content: center;
+`;

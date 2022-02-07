@@ -1,9 +1,10 @@
 import React from "react";
+import ReactPlayer from "react-player";
 import { useParams } from "react-router-dom";
 
 import { Container, Content, Title, BasicText } from "../../../GlobalStyled";
 
-import { WorkWrap } from "./IntroElements";
+import { WorkWrap, YoutubeBlock } from "./IntroElements";
 
 const IntroBlock = ({ data }) => {
   const { id } = useParams();
@@ -22,7 +23,10 @@ const IntroBlock = ({ data }) => {
 
                 <WorkWrap>
                   <img src={item.img} />
-                  <img src={item.img2} />
+                  <img display={item.displayImg2} src={item.img2} />
+                  <YoutubeBlock displayPlease={item.displayYoutube}>
+                    <ReactPlayer url={item.displayVideo} controls={true} />
+                  </YoutubeBlock>
                 </WorkWrap>
               </>
             );

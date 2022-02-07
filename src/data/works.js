@@ -15,7 +15,23 @@ import etherial1 from "../images/ethereal/first.png";
 import etherial2 from "../images/ethereal/approachV.png";
 import etherial3 from "../images/ethereal/approachH.png";
 
+import feelsGood from "../images/feelsgood/feelsgoodCover.png";
+import fg1 from "../images/feelsgood/fg1.png";
+import fg2 from "../images/feelsgood/fg2.png";
+import fg3 from "../images/feelsgood/fg3.png";
+import FGapproachH from "../images/feelsgood/approachH.png";
+import FGapproachV from "../images/feelsgood/approachV.png";
+
+import mentora from "../images/mentora/mentora.png";
+import mentora1 from "../images/mentora/mh1.png";
+import mentora2 from "../images/mentora/mh2.png";
+import mentora3 from "../images/mentora/mh3.png";
+import mentoraH from "../images/mentora/approachH.png";
+import mentoraV from "../images/mentora/approachV.png";
+
 export const worksInfo = [
+  // shift -------------------
+
   {
     id: "shift",
     imgBanner: shift10,
@@ -65,7 +81,9 @@ export const worksInfo = [
     imgApproach: shift8,
     imgApproachV: shift9,
   },
-  // -----------------------------------
+
+  // etherial -------------------
+
   {
     id: "etherial",
     imgBanner: etherial,
@@ -78,7 +96,9 @@ export const worksInfo = [
       "This adventure is possible through the collection of data using tools such as facial recognition, people counting and the capture of voice characteristics of the people inside of the room. Depending on the obtained result, the environment they are in will change in color, shape and sound reflecting the data processed. ",
     ],
     img: etherial1,
-    img2: shift2,
+    displayImg2: "false",
+    displayYoutube: "false",
+    displayVideo: "https://www.youtube.com/watch?v=ND-Gc_le3R8",
 
     // second section
     displaySub: "false",
@@ -93,7 +113,6 @@ export const worksInfo = [
       <br />,
       "Is important to notice that if there are more people present, the environment will be affected by them as well, and by this the relationship between the visitor and the environment will no longer be exclusive and will become a collective experience.",
     ],
-    imgSecondSection: shift3,
     displayExamples: "false",
 
     // third section
@@ -105,16 +124,91 @@ export const worksInfo = [
     imgApproach: etherial2,
     imgApproachV: etherial3,
   },
+
+  // feelsgood -------------------
+
   {
     id: "feelsgood",
-    imgBanner: etherial,
+    imgBanner: feelsGood,
+
+    // first section
+    title: "Feels Good",
+    text: [
+      "Feels Good is a project for an app with the main objective of increasing the well-being of people who are unmotivated and discouraged, through specific activities for each user, with a dynamic planning of the same.",
+      <br />,
+      "During research we came across that for many people the creation of small and healthy routines serves as an anchor to keep them positive and it also helps them maintaining a healthy level of focus, which prevents a sense of discomfort with worries or uncertainties, that they may be dealing with. Repeated activities, which make us happy, help to create positive daily habits and prioritise our well-being.",
+    ],
+    img: fg1,
+    img2: fg2,
+
+    // second section
+    roleTitle: "Context",
+    roleText: [
+      "We developed this project in the course of Interactive Media Design where we had an introduction of foundational concepts of design interaction with computational media and applied studied techniques, processes and methods to help us boost our vision and improve our app.",
+    ],
+    challengesTitle: "Challenges",
+    challengesText: [
+      "The biggest challenge was creating an experience that will truly adapt and led a hand to the users, especially in these scenarios where the main focus was to create a helping path for the people that have a problem to stay motivated and focus. ",
+    ],
+    resultsTitle: "Results",
+    resultsText: [
+      "We finish the project and got to create the vision we imagined from the beginning, from the visuals to the user experience. Sadly, as this was only a school assignment there is no functional version of the app, but I'm certain that these are the kind of projects I'll love to continue doing, so I can help make the world a better place for everyone with my own skills.",
+    ],
+    imgSecondSection: fg3,
+
+    // third section
+    approachTitle: "Approach",
+    approachText: [
+      "For these project we followed the professor recommendations of steps and were supervised by him in stage.",
+    ],
+    imgApproach: FGapproachH,
+    imgApproachV: FGapproachV,
   },
+
+  // mentora -------------------
+
   {
     id: "mentora",
-    imgBanner: etherial,
+    imgBanner: mentora,
+
+    // first section
+    title: "Mentora Health",
+    text: [
+      "Mentora Health is a digital assistance that allows the reporting and monitoring of symptoms along with the adverse effects of cancer treatments with the aim of having a better understanding and management of the disease, creating a positive impact on the quality of life and survival time of the patient.",
+    ],
+    img: mentora1,
+    img2: mentora2,
+
+    // second section
+    roleTitle: "Role & Context",
+    roleText: [
+      "On this project my team were responsible for the rebranding of the company, the development of high-fidelity mockups for the app and to help with the development of the software. ",
+      <br />,
+      "I created a new logo and colour palette to go better with the brand and their vision, also worked on the redesign of the main page and worked along doctors and other Mentora Health members to create all the new units like “Vital Signs” and “Medication”, always keeping in mind the UX and the UI aspects to make the app the best version it can be. ",
+    ],
+    challengesTitle: "Challenges",
+    challengesText: [
+      "This was my first time creating the layout and flow of a mobile app so I need to confess that there were a lot of constrains and a lot of learning. Thankfully I was part of a team that gave me the time of learning by myself and keep improving the app. ",
+    ],
+    resultsTitle: "Results",
+    resultsText: [
+      "The first version of the app was created and the development team could take my vision and it started making it a reality. I sucessfully created all the necessary branding, layout and assets that were necessary to deploy the application and improve the branch.",
+    ],
+    imgSecondSection: mentora3,
+    displayExamples: "false",
+
+    // third section
+    approachTitle: "Approach",
+    approachText: [
+      "As I said earlier this was my first time making the design of an app, and I was alone. I didn't really have a previously defined approach and I learned from the mistakes.",
+      <br />,
+      "The process basically consisted on analysing the needs, ajusting the flow, create the layout and test it with a bigger team.",
+    ],
+    imgApproach: mentoraH,
+    imgApproachV: mentoraV,
   },
-  {
+  /* {
     id: "jeK",
     imgBanner: etherial,
-  },
+  }, */
 ];

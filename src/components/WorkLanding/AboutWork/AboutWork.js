@@ -21,8 +21,8 @@ export const FirstBlock = styled.div`
   align-items: center;
 
   img {
-    width: 90%;
-    max-width: 340px;
+    width: 80%;
+    max-width: 310px;
   }
 
   @media screen and (max-width: 1200px) {
