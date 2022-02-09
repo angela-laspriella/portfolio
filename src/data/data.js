@@ -45,7 +45,7 @@ export const AboutMeIntro = {
   text: [
     "Hello there!!",
     <br />,
-    "I'm Angela Laspriella,huge dog lover 🐶. I am currently an Intern at Fjord - Accenture Interactive, where I'm  focusing on developing and mastering my skills and increase my knowledge on Product Design.",
+    "I'm Angela Laspriella, huge dog lover 🐶. I am currently an Intern at Fjord - Accenture Interactive, where I'm  focusing on developing and mastering my skills and increase my knowledge on Product Design.",
     <br />,
     "In college I joined jeKnowledge - a Junior Enterprise company - as a designer. This experience gave me opportunities who work on multiple projects where I got feedback from clients on first hand. JeKnowledge was also the place where I discovered my love for Product Design.",
     <br />,

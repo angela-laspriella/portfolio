@@ -133,9 +133,9 @@ export const worksInfo = [
     // first section
     title: "Feels Good",
     text: [
-      "Feels Good is a project for an app with the main objective of increasing the well-being of people who are unmotivated and discouraged, through specific activities for each user, with a dynamic planning of the same.",
+      "Feels Good is a University project for an app with the main objective of increasing the well-being of people who are unmotivated and discouraged, through specific activities for each user, with a dynamic planning of the same.",
       <br />,
-      "During research we came across that for many people the creation of small and healthy routines serves as an anchor to keep them positive and it also helps them maintaining a healthy level of focus, which prevents a sense of discomfort with worries or uncertainties, that they may be dealing with. Repeated activities, which make us happy, help to create positive daily habits and prioritise our well-being.",
+      "During the research part of the project we came across that for many people the creation of small and healthy routines serves as an anchor to keep them positive and it also helps them maintaining a healthy level of focus, which prevents a sense of discomfort with worries or uncertainties, that they may be dealing with. Repeated activities, which make us happy, help to create positive daily habits and prioritise our well-being and the app focus is to help maintaining this healthy habit.",
     ],
     img: fg1,
     img2: fg2,
@@ -143,11 +143,11 @@ export const worksInfo = [
     // second section
     roleTitle: "Context",
     roleText: [
-      "We developed this project in the course of Interactive Media Design where we had an introduction of foundational concepts of design interaction with computational media and applied studied techniques, processes and methods to help us boost our vision and improve our app.",
+      "We developed this project in the course of Interactive Media Design where we had an introduction of foundational concepts of Interaction Design and where we had the chance of applying studied techniques, processes and methods to help us boost our vision and improve our app.",
     ],
     challengesTitle: "Challenges",
     challengesText: [
-      "The biggest challenge was creating an experience that will truly adapt and led a hand to the users, especially in these scenarios where the main focus was to create a helping path for the people that have a problem to stay motivated and focus. ",
+      "The biggest challenge was creating an experience that will truly adapt and led a hand to the users, especially in these scenarios where the main focus was to create a helping hand for the people that have a problem to stay motivated and focus.",
     ],
     resultsTitle: "Results",
     resultsText: [
@@ -158,7 +158,7 @@ export const worksInfo = [
     // third section
     approachTitle: "Approach",
     approachText: [
-      "For these project we followed the professor recommendations of steps and were supervised by him in stage.",
+      "For this project we followed the steps that the professor recommended and were supervised by him in every stage. ",
     ],
     imgApproach: FGapproachH,
     imgApproachV: FGapproachV,
@@ -181,17 +181,17 @@ export const worksInfo = [
     // second section
     roleTitle: "Role & Context",
     roleText: [
-      "On this project my team were responsible for the rebranding of the company, the development of high-fidelity mockups for the app and to help with the development of the software. ",
+      "On this project my team were responsible for the rebranding of the company, the development of high-fidelity mockups for the app and we also helped with the development of the software.",
       <br />,
-      "I created a new logo and colour palette to go better with the brand and their vision, also worked on the redesign of the main page and worked along doctors and other Mentora Health members to create all the new units like “Vital Signs” and “Medication”, always keeping in mind the UX and the UI aspects to make the app the best version it can be. ",
+      "I created a new logo and colour palette to go better with the brand and their vision, also worked on the redesign of the app main page and worked along doctors and other Mentora Health members to create all the new units like “Vital Signs” and “Medication”, always keeping in mind the UX and the UI aspects to make the app the best version it can be.",
     ],
     challengesTitle: "Challenges",
     challengesText: [
-      "This was my first time creating the layout and flow of a mobile app so I need to confess that there were a lot of constrains and a lot of learning. Thankfully I was part of a team that gave me the time of learning by myself and keep improving the app. ",
+      "This was my first time creating the layout and flow of a mobile app so I need to confess that there were a lot of constrains and a lot of learning. Thankfully I was part of a team that gave me the time I needed so I could learn by doing and keep improving the app.",
     ],
     resultsTitle: "Results",
     resultsText: [
-      "The first version of the app was created and the development team could take my vision and it started making it a reality. I sucessfully created all the necessary branding, layout and assets that were necessary to deploy the application and improve the branch.",
+      "The first version of the app was created. I sucessfully created all the necessary branding, layout and assets that were necessary to build and deploy the application.",
     ],
     imgSecondSection: mentora3,
     displayExamples: "false",
@@ -199,9 +199,7 @@ export const worksInfo = [
     // third section
     approachTitle: "Approach",
     approachText: [
-      "As I said earlier this was my first time making the design of an app, and I was alone. I didn't really have a previously defined approach and I learned from the mistakes.",
-      <br />,
-      "The process basically consisted on analysing the needs, ajusting the flow, create the layout and test it with a bigger team.",
+      "As this was my first time creating something like this the process was very simple and I changed the approach everytime I though it was necessary. It basically consisted on analysing the needs, ajusting the flow, create the layout and test it with a bigger team.",
     ],
     imgApproach: mentoraH,
     imgApproachV: mentoraV,
