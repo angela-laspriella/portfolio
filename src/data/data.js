@@ -166,8 +166,9 @@ export const OtherPeople = [
     text: "“Angela is definitely the type of person you would want on your team. She is proactive, self driven, always gets the job done and often goes the extra mile to achieve an amazing work. The pleasure and dedication with which she faces each challenge results in a work of excellence.”",
     position: "jeKnowledge Design Coordinator",
     name: "Diogo Ribeiro",
-    pathOne: "",
-    pathTwo: "",
+    pathOne: "https://www.linkedin.com/in/dbgfribeiro/",
+    pathTwo:
+      "https://www.behance.net/dbgfribeiro?tracking_source=search_users|diogo%20ribeiro",
     img: ribeiro,
   },
   /* {
@@ -182,8 +183,9 @@ export const OtherPeople = [
     text: "“Angela, while part of the NEI/AAC Image Department, was crucial in maintaining the high graphic quality by which the NEI/AAC is governed, and, consequently, was essential to the success of the two terms in which she was present. All the images she created presented an important sense of visual aesthetics, and she always was capable of redefining and reinventing nei/AAC's graphic identity so it could hit levels that drew a lot of attention. As Coordinator of the Image Department, that is a part of the 2021 Edition Organizing Committee of Shift APPens, also presented a great ability to work under pressure and lead a team in an edition of the event that, by its transition to an online format, it required enormous innovation and workload at the level of her Department.”",
     position: "NEI/AAC Image Department's Coordinator",
     name: "Pedro Churro",
-    pathOne: "",
-    pathTwo: "",
+    pathOne: "https://www.linkedin.com/in/pchurro/",
+    pathTwo:
+      "https://www.behance.net/pchurro?tracking_source=search_users|pedro%20churro",
     img: churro,
   },
 ];

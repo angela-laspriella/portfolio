@@ -33,13 +33,13 @@ const OtherPeopleBlock = ({}) => {
                   <NameBlock>
                     {" "}
                     <Social>
-                      <a href={item.pathOne} target={item.pathTwo}>
+                      <a href={item.pathOne} target="_blank">
                         <SocialIcon>
                           <LinkedIn />
                         </SocialIcon>
                       </a>
 
-                      <a href={item.pathOne} target={item.pathTwo}>
+                      <a href={item.pathTwo} target="_blank">
                         <SocialIcon>
                           <Behance />
                         </SocialIcon>
