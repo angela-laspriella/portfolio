@@ -179,7 +179,7 @@ export const OtherPeople = [
     img: not,
   }, */
   {
-    text: "“Angela, while part of the NEI/AAC Imaging Portfolio, was crucial in maintaining the high graphic quality by which the NEI/AAC is governed, and, consequently, was essential to the success of the two terms in which she was present. All the images she created presented an important sense of visual aesthetics, and she always was capable of redefining and reinventing nei/AAC's graphic identity so it could hit levels that drew a lot of attention. As Coordinator of the Image Department, that is a part of the 2021 Edition Organizing Committee of Shift APPens, also presented a great ability to work under pressure and lead a team in an edition of the event that, by its transition to an online format, it required enormous innovation and workload at the level of her Department.”",
+    text: "“Angela, while part of the NEI/AAC Image Department, was crucial in maintaining the high graphic quality by which the NEI/AAC is governed, and, consequently, was essential to the success of the two terms in which she was present. All the images she created presented an important sense of visual aesthetics, and she always was capable of redefining and reinventing nei/AAC's graphic identity so it could hit levels that drew a lot of attention. As Coordinator of the Image Department, that is a part of the 2021 Edition Organizing Committee of Shift APPens, also presented a great ability to work under pressure and lead a team in an edition of the event that, by its transition to an online format, it required enormous innovation and workload at the level of her Department.”",
     position: "NEI/AAC Image Department's Coordinator",
     name: "Pedro Churro",
     pathOne: "",
